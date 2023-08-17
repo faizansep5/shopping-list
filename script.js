@@ -32,7 +32,7 @@ function onAddItemSubmit(e){
     const newItem = itemInput.value;
     //Validation
     if(newItem === ''){
-        alert('Please add something');
+        alert('Please add something')
         return;
     }
 
